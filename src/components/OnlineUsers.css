@@ -1,0 +1,35 @@
+.user-list {
+  width: 250px;
+  min-width: 250px;
+  padding: 30px;
+  box-sizing: border-box;
+  background: #292941;
+  color: var(--text-color);
+}
+.user-list h2 {
+  text-align: right;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+  font-size: 1.2em;
+}
+.user-list .user-list-item {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 20px auto;
+}
+.user-list-item span {
+  margin-right: 10px;
+}
+.user-list .user-list-item .avatar {
+  width: 50px;
+  height: 50px;
+}
+.status {
+  display: flex;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: limegreen;
+}

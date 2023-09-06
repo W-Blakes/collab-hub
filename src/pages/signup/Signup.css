@@ -1,0 +1,9 @@
+.auth-form {
+  text-align: left;
+  max-width: 360px;
+  margin: 60px auto;
+  padding: 40px;
+  border: 1px solid var(--heading-color);
+  box-sizing: border-box;
+  background: #292941;
+}
