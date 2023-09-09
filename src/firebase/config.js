@@ -4,8 +4,8 @@ import 'firebase/auth';
 import 'firebase/firebase-storage';
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyCQJlcwI8PIkMENa5_tLKLWrGc-eKWZTTI',
-  authDomain: 'thecollabsite-456f4.firebaseapp.com',
+  apiKey: process.env.FIREBASE_CLOUD_KEY ,
+  authDomain: process.env.FIREBASE_AUTH_DOMAIN ,
   projectId: 'thecollabsite-456f4',
   storageBucket: 'thecollabsite-456f4.appspot.com',
   messagingSenderId: '89641997381',
