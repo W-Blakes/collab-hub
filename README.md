@@ -1,6 +1,6 @@
 # collab-hub
 
-React and Firebase project management app that allows users to create and manage projects in realtime.
+React and Firebase Dragon Ball Themed project management app that allows users to create and manage projects in realtime.
 
 Udemy Build React and Firebase Apps Finale Project
 
